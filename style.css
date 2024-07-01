@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(164, 171, 177);
+    color: aliceblue;
+}
+nav{
+    margin: -8px;
+    padding: 0px;
+    background-color: rgb(225, 235, 235);
+    height: 70px;
+    display:grid;
+    grid-template-columns: 75px 30px;
+}
+.logo{
+    color: black;
+    position: relative;
+    font-size: large;
+    font-family: Arial;
+    padding-left: 50px;
+    float:left;
+    padding-top: 10px;
+}
+.button{
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    font-size: 18px;
+    background-color: blue;
+    color: black;
+    padding-top:  15px 32px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 992px 396px;
+    grid-column-gap:  108px; ;
+    position: relative;
+    top:85px;
+}
+.content{
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.image{
+    position: fixed;
+    top: 150px;
+    right: 30px;
+}
+  h4{
+    text-align: left;
+    text-size-adjust: center;
+    font-size: medium;
+  }
+  h5{
+    text-align: left;
+    font-size: medium;
+  }
+  .x{
+    border: none;
+    width: 550px;
+    height: 20px;
+}
+
+
+
+
